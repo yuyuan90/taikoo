@@ -397,8 +397,8 @@ option = {
             type: 'value',
             name: 'Drink fee',
             min: 0,
-            max: 25,
-            interval: 5,
+            max: 250,
+            interval: 50,
             axisLabel: {
                 formatter: '{value} $'
             }
@@ -408,13 +408,13 @@ option = {
         {
             name:'Orderings',
             type:'bar',
-            data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0]
+            data:[2, 4, 7, 23, 25, 76, 135, 162, 32, 20]
         },
         {
             name:'Drink fee',
             type:'line',
             yAxisIndex: 1,
-            data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5]
+            data:[20, 22, 33, 45, 63, 102, 203, 234, 230, 165]
         }
     ]
 };
